@@ -1,0 +1,99 @@
+body {
+    background-image: url(../images/flagge.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    padding: 1vw;
+    background-color: white;
+    font-family: Poppins, sans-serif;
+    box-shadow: 10px 10px 50px black;
+    box-sizing: border-box;
+}
+p {
+    text-align: justify;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+nav {
+    width: 10vw;
+    padding: 0.5vw;
+    background-color: #efefef;
+    float: left;
+    margin-right: 2vw;
+}
+nav div {
+    background-color: lightgray;
+    height: 2vw;
+    margin-bottom: 0.5vw;
+    padding-left: 1vw;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+h2 {
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+}
+img {
+    height: 300px;
+    width: auto;
+    margin: 0 1vw 1vw 0;
+    float: left;
+}
+.flex {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex div {
+    margin-top: 2vw;
+    border: 1px solid black;
+    padding: 1vw;
+    width: 400px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #efefef;
+}
+.flex img {
+    height: 150px;
+    width: auto;
+}
+.flex h2 {
+    margin: 0;
+    font-size: 25px;
+}
+.flex a {
+    font-size: 15px;
+    text-decoration: underline;
+    color: blue;
+}
+form {
+    margin: 2vw auto;
+    width: 50%;
+    border: 1px solid black;
+    padding: 1vw;
+}
+input, textarea, select {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+textarea {
+    width: 98%;
+    height: 100px;
+}
