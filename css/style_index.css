@@ -1,0 +1,139 @@
+@-o-keyframes moving_arrow {
+    0% {bottom: 1vw;}
+    10% {bottom: 1.3vw;}
+    15% {bottom: 1.5vw;}
+    25% {bottom: 1.2vw;}
+    30% {bottom: 1vw;}
+    40% {bottom: 1.3vw;}
+    45% {bottom: 1.5vw;}
+    55% {bottom: 1.2vw;}
+    60% {bottom: 1vw;}
+    100% {bottom: 1vw;}   
+}
+@-moz-keyframes moving_arrow {
+    0% {bottom: 1vw;}
+    10% {bottom: 1.3vw;}
+    15% {bottom: 1.5vw;}
+    25% {bottom: 1.2vw;}
+    30% {bottom: 1vw;}
+    40% {bottom: 1.3vw;}
+    45% {bottom: 1.5vw;}
+    55% {bottom: 1.2vw;}
+    60% {bottom: 1vw;}
+    100% {bottom: 1vw;}   
+}
+@-webkit-keyframes moving_arrow {
+    0% {bottom: 1vw;}
+    10% {bottom: 1.3vw;}
+    15% {bottom: 1.5vw;}
+    25% {bottom: 1.2vw;}
+    30% {bottom: 1vw;}
+    40% {bottom: 1.3vw;}
+    45% {bottom: 1.5vw;}
+    55% {bottom: 1.2vw;}
+    60% {bottom: 1vw;}
+    100% {bottom: 1vw;}   
+}
+@keyframes moving_arrow {
+    0% {bottom: 1vw;}
+    10% {bottom: 1.3vw;}
+    15% {bottom: 1.5vw;}
+    25% {bottom: 1.2vw;}
+    30% {bottom: 1vw;}
+    40% {bottom: 1.3vw;}
+    45% {bottom: 1.5vw;}
+    55% {bottom: 1.2vw;}
+    60% {bottom: 1vw;}
+    100% {bottom: 1vw;}   
+}
+button {
+    background-color: lightgray;
+    border: none;
+    height: 4vw;
+    width: 4vw;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 1vh;
+    left: 47vw;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0.2vw 0.2vw 1vw;
+}
+button:hover {
+    cursor: pointer;
+}
+button img {
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    -o-animation-name: moving_arrow;
+    -moz-animation-name: moving_arrow;
+    -webkit-animation-name: moving_arrow;
+    animation-name: moving_arrow;
+    -o-animation-duration: 1.1s;
+    -moz-animation-duration: 1.1s;
+    -webkit-animation-duration: 1.1s;
+    animation-duration: 1.1s;
+    -o-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+main {
+    padding: 1vw;
+    width: 100%;
+}
+header {
+    position: fixed;
+    z-index: 1;
+}
+#coverimg {
+    box-sizing: border-box;
+    padding-top: 5vw;
+    height: 100vh;
+}
+#coverimg div {
+    background-image: url(../img/header.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: -1vw;
+    display: flex;
+    align-items: center;
+}
+#coverimg div img {
+    width: 100%;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    z-index: 0;
+}
+main p {
+    width: 96.5vw;
+}
+main p iframe {
+    position: absolute;
+    right: 1vw;
+    margin-right: 10px;
+    -o-transition: height 1s ease-out, width 1s ease-out;
+    -moz-transition: height 1s ease-out, width 1s ease-out;
+    -webkit-transition: height 1s ease-out, width 1s ease-out;
+    transition: height 1s ease-out, width 1s ease-out;
+}
+main p iframe:hover {
+    height: 400px;
+    width: 711.74px;
+}
+main p img {
+    width: 300px;
+    height: 169px;
+    margin-left: 10px;
+}
+span {
+    font-weight: bold;
+    font-size: 30px;
+}
+.anchor {
+    position: absolute;
+    top: 94vh;
+}

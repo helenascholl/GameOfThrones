@@ -1,0 +1,15 @@
+main {
+    padding: 2vw 3vw 0px 3vw;
+}
+main h1 {
+    font-size: 40px;
+}
+main h2 {
+    border-bottom: 1px solid black;
+    font-size: 30px;
+}
+section {
+    box-sizing: border-box;
+    margin: 1vw 0px;
+    overflow-y: hidden;
+}
