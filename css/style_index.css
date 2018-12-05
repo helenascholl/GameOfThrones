@@ -58,6 +58,7 @@ button {
     display: flex;
     justify-content: center;
     box-shadow: 0.2vw 0.2vw 1vw;
+    user-select: none;
 }
 button:hover {
     cursor: pointer;
